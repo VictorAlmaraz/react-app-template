@@ -80,7 +80,6 @@ const Accesory: FC = () => {
   return (
     <div className={lengthProducts >= 3 ? `${handles.container}` : `${handles.container_for_two}`}>
       {productElements}
-      {console.log("maldita SEA!!", lengthProducts)}
     </div>
   )
 };
