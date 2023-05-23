@@ -1,5 +1,8 @@
 {
-    "product-rating-summary": {
+    "product-rating-summary.vtex": {
         "component": "ProductRatingSummary"
+    },
+    "hello-world": {
+        "component": "HelloWorld"
     }
 }
