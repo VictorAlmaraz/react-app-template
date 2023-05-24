@@ -1,8 +1,14 @@
 {
-    "product-rating-summary.vtex": {
+    "product-rating-summary": {
         "component": "ProductRatingSummary"
     },
-    "hello-world": {
-        "component": "HelloWorld"
+    "product-reviews": {
+        "component": "ProductDetails"
+    },
+    "product-questions-and-answers": {
+        "component": "ProductQuestionsPlaceholder"
+    },
+    "pixel.konfidency-reviews": {
+        "component": "index"
     }
 }

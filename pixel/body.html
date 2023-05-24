@@ -1,0 +1,12 @@
+<script>
+    (function () {
+        var customer = "{{settings.konfidencyId}}";
+        if (!customer) {
+            console.error('Warning: No Konfidency ID is defined. Please configure it in the apps admin.');
+            return
+        }
+    })()
+</script>
+
+<script type="text/javascript" src="https://reviews.konfidency.com.br/{{settings.konfidencyId}}/loader.js"
+    async></script>
