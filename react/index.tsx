@@ -8,6 +8,11 @@ export function handleEvents(e: PixelMessage) {
             break
         }
 
+        case 'vtex:productView': {
+            (window as any)?.konfidencyLoader?.load();
+            break;
+        }
+
         default: {
             console.log(e.data);
             break
