@@ -6,8 +6,8 @@
     "support": {
       "email": "suporte@konfidency.com.br"
     },
-    "free": true,
-    "type": "billable",
+    "free": false,
+    "type": "free",
     "availableCountries": [
       "*"
     ]
