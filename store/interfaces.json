@@ -10,5 +10,8 @@
     },
     "pixel.konfidency-reviews": {
         "component": "index"
+    },
+    "product-rating-inline": {
+        "component": "ProductRatingInline"
     }
 }

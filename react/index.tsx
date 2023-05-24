@@ -13,8 +13,13 @@ export function handleEvents(e: PixelMessage) {
             break;
         }
 
+        case 'vtex:productImpression': {
+            (window as any)?.konfidencyLoader.loadShowcase();
+            break;
+        }
+
         default: {
-            console.log(e.data);
+            // console.log(e.data);
             break
         }
     }
